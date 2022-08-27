@@ -5,8 +5,9 @@ plugins {
 
 }
 
-group 'net.reinosmc'
-version '1.0-SNAPSHOT'
+group = 'net.reinosmc'
+mainClassName = 'net.reinosmc.besttownywar.Plugin'
+version = '1.0-SNAPSHOT'
 
 repositories {
     maven {
