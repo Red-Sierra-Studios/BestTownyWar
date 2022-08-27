@@ -1,0 +1,6 @@
+name: BestTownyWar
+version: '${version}'
+main: net.reinosmc.besttownywar.Plugin
+api-version: 1.16
+authors: [ wolfdev1, RedSierraStudios, Sebasorovaa ]
+description: A simple plugin to improve wars and invasions in TownyAdvanced

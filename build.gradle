@@ -1,5 +1,8 @@
 plugins {
     id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+
 }
 
 group 'net.reinosmc'
@@ -25,7 +28,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-    implementation 'com.destroystokyo.paper:paper-api:1.12.2-R0.1-SNAPSHOT'
+    implementation 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
     implementation 'com.github.TownyAdvanced:Towny:0.98.3.5'
 
 }
